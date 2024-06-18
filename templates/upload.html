@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/static.css') }}">
+</head>
+<body>
+    <h1 style="background-color:blue;color:red;margin: 20px auto;width:350px"> SimpleUI</h1>
+    <div style="margin-top:0px">
+        
+    <form method="POST" action="{{ url_for('upload') }}" enctype="multipart/form-data" id="uploadForm">
+       <input type="file" name="file"  id="fileINput" required
+> 
+<br>
+<br>
+
+<button type="submit">submit</button>  
+  </form>
+</div>
+<script src="{{ url_for('static',filename='js/script.js') }}">
+     
+      
+    </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: aqua;
+    color:brown;
+}
+button{
+    background-color: green;
+    color:red;
+    
+}
+inputtype{
+    padding:20px;
+}
+div{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    margin: 100px auto;
+    border-radius: 10px;
+    border-style:dashed;
+    border-color:chartreuse;
+    padding:60px 150px 60px 60px;
+}

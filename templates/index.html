@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/static.css') }}">
+</head>
+<body>
+    <div>
+    <h1>Welcome</h1>
+    <a href="{{url_for('upload')}}">Upload an Image</a>
+    </div>
+    <h1>Login</h1>
+
+    <form id="loginForm" action="{{ url_for('login') }}" >
+        <input type="text" id="username" placeholder="Username" required>
+        <br>
+        <br>
+        <input type="password" id="password" placeholder="Password" required>
+        <br>
+        <br>
+        <button type="submit">Login</button>
+    </form>
+    <script>
+       
+
+           
+            
+    </script>
+
+</body>
+</html>
